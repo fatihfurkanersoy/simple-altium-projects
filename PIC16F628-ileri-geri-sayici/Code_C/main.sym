@@ -1,0 +1,52 @@
+004-005 @READ_PROGRAM_MEMORY8.P1
+015     CCP_1_LOW
+015     CCP_1
+016     CCP_1_HIGH
+01F.6   C1OUT
+01F.7   C2OUT
+020     say
+021     main.@SCRATCH1
+022     @delay_ms1.P1
+077     @SCRATCH
+078     @SCRATCH
+078     _RETURN_
+079     @SCRATCH
+07A     @SCRATCH
+09B-09C @READ_PROGRAM_MEMORY8.P1
+
+ROM Allocation:
+000004  @delay_ms1
+000019  @cinit1
+000019  main
+00001F  @cinit2
+
+Project Directory:
+    C:\Users\fatih\Desktop\Projelerim\Ktun Odev\eem tasarým 1\ilerigeri\Yeni klasör\
+
+Project Files:
+    main.c                                                  [28-Oca-21 21:05  CRC=196C8FCC]
+    ..\..\..\..\..\..\..\..\Program Files (x86)\PICC\Devices\16F628A.h [12-Kas-13 14:34  CRC=44569924]
+
+Source signature=A219C214
+
+Units:
+    main (main)
+
+Compiler Settings:
+    Processor:      PIC16F628A
+    Pointer Size:   16
+    Opt Level:      9
+    Short,Int,Long: UNSIGNED: 1,8,16
+    Float,Double:   32,32
+
+Output Files:
+    XREF file:   main.xsym
+    Errors:      main.err
+    Ext Symbols: main.esym
+    INHX8:       main.hex
+    Symbols:     main.sym
+    List:        main.lst
+    Debug/COFF:  main.cof
+    Project:     main.ccspjt
+    Call Tree:   main.tre
+    Statistics:  main.STA

@@ -1,0 +1,4 @@
+>>> Warning 203 "main.c" Line 23(1,1): Condition always TRUE
+      Memory usage:   ROM=3%      RAM=3% - 4%
+      0 Errors,  1 Warnings.
+Build Successful.
