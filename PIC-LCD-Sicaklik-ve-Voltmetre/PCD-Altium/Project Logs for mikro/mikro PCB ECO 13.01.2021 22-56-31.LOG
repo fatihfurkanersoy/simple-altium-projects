@@ -1,0 +1,6 @@
+Removed Pin From Net: NetName=ButonPin Pin=U1-14
+Change Component Designator: OldDesignator=Besleme Hatti1 NewDesignator=Besleme Hattý1
+Added Pin To Net: NetName=NetR3_2 Pin=U1-14
+Change Net Name : Old Net Name=ButonPin New Net Name=Neg-
+Change Net Name : Old Net Name=NetR3_2 New Net Name=ButonPin
+Added Room: Name=mikro
